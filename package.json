@@ -1,0 +1,43 @@
+{
+    "name": "kozdan-violet-theme",
+    "version": "1.0.0",
+    "description": "A violet theme for VS Code",
+    "displayName": "Kozdan Violet Theme",
+    "icon": "./icons/package.png",
+    "publisher": "aticish",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aticish/vscode-violet-theme"
+    },
+    "engines": {
+        "vscode": "^1.79.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#17171e",
+        "theme": "dark"
+    },
+    "keywords": [
+        "Violet Theme",
+        "Purple Theme",
+        "Soft Colors",
+        "Kozdan"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark - Kozdan Violet",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-violet.json"
+            },
+            {
+                "label": "Dark - Kozdan Violet (Bold)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-violet-bold.json"
+            }
+        ]
+    }
+}
